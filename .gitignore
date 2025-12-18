@@ -1,0 +1,25 @@
+# ===== Build artifacts =====
+bin/
+build/
+*.o
+*.a
+*.so
+*.out
+
+# ===== Debug / temp =====
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# ===== OS-specific =====
+.DS_Store
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+
+# ===== Test artifacts =====
+tests/*.result
+
